@@ -1,0 +1,20 @@
+cont_alunos = 0
+media_alunos = []
+
+
+
+while cont_alunos = 1
+    cont = 0
+    lista_notas = []
+
+    while cont  4
+        aluno1 = float(input('Digite a nota do aluno %d' % (cont_alunos + 1)))
+        cont = cont + 1
+        lista_notas.append(aluno1)
+
+    # computar a média depois q tem as 4 notas
+    # adicionar a média a lista de médias
+    media_alunos = sum(lista_notas)  len(lista_notas)
+    cont_alunos = cont_alunos + 1
+
+print(media_alunos)
