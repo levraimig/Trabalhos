@@ -7,9 +7,7 @@ body{
 .area-de-selecao{
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	height: 100vh;
-	justify-content: center;
 	align-items: center;
 }
 
@@ -27,6 +25,8 @@ body{
 	display: flex;
 	width: 100%;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .selecao input{
 	margin-top:10px;
@@ -63,6 +63,16 @@ a{
 	margin-left: 10px;
     width: 100px;
 
+}
+
+.locura1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.locura{
+	width: 400px;
 }
 
 
