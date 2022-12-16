@@ -68,9 +68,11 @@
   }
 .sugestao{
     padding: 20px;
-    text-align: left;
+    text-align: center;
     background: #ddd;
     margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 6%;
   }
 
 #titulo{
@@ -78,6 +80,7 @@
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .migloro{
@@ -86,22 +89,47 @@
     background: rgb(227, 233, 224);
     margin-top: 20px;
     flex-direction: column;
+    width: 50%;
 }
 
 .logo{
-  width:1000px;
-    height:100px;
+  width:80%;
+    height:20%;
     border:solid 1px;
     border-radius:0px 20px 0px 20px;
+    align-items: center;
 }
 
 .insta{
-  width:50;
-  height:50px;
+  width:20%;
+  height:13%;
+  margin-right: 15%;
+  margin-left: 10%;
 
 }
 .TELEGRAM{
-  width:50;
-  height:50px;
-  margin-left: 25%;
+  width:20%;
+  height:13%;
+  margin-left: 15%;
+}
+
+.texto_nos{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+}
+.card_do_banner{
+  background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 0%;
+    margin-right: 6%;
+}
+
+.nos{
+  font-size: 150%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tituluzao{
+  font-size: 150%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
