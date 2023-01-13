@@ -1,43 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calendar</title>
-    <link rel="stylesheet" href="./css/css_do_calendario.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <div class="calendar">
-        <div class="month">
-          <i class="fas fa-angle-left prev"></i>
-          <div class="date">
-            <h1></h1>
-            <p></p>
-          </div>
-          <i class="fas fa-angle-right next"></i>
-        </div>
-        <div class="weekdays">
-          <div>Sun</div>
-          <div>Mon</div>
-          <div>Tue</div>
-          <div>Wed</div>
-          <div>Thu</div>
-          <div>Fri</div>
-          <div>Sat</div>
-        </div>
-        <div class="days"></div>
-      </div>
-    </div>
+<div class="formularioContato">
 
-    <script src="./Java/java_do_calendario.js"></script>
-  </body>
-</html>
+    <link rel="stylesheet" type="text/css" href="stylesheet1.css" />
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label>
+            <span><i class="icon icon-user-1"></i> Data</span>
+            <input type="date" name="data" required="">
+            <input type="submit" name="Enviar" required="" />
+        </label>
+
+        <label>
+            <span><i class="icon icon-email"></i> Nome do Operário</span>
+            <select name="select">
+                <option value="nome1">Valor 1</option>
+                <option value="nome2" selected>Valor 2</option>
+                <option value="nome3">Valor 3</option>
+                <option value="nome3">Valor 4</option>
+                <option value="nome3">Valor 5</option>
+            </select>
+        </label>
+        <label>
+            <span><i class="icon icon-flag"></i> Avaliacao do Operário</span>
+            <input type="" name="assunto" required="">
+        </label>
+
+        <label>
+            <span><i class="icon icon-comment"></i> Enderço</span>
+            <input type="text" name="endereco" required="">
+        </label>
+        <label>
+            <span><i class="icon icon-comment"></i> Telefone</span>
+            <input type="tel" name="telefone" required="telefone">
+
+        </label>
+        <label>
+            <span><i class="icon icon-comment"></i> Como você deseja!</span>
+            <textarea name="mensagem" rows="3" required=""></textarea>
+        </label>
+
+        <input type="hidden" name="acao" value="enviar" />
+        <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+
+    </form>
+</div><!--Formulario Contato-->
