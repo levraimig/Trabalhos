@@ -15,18 +15,12 @@ int funcaoMaior(int a, int b){
 
 main(){
 
-int n1, n2, maior1, maior2, maior;
+int n1, n2, n3, n4;
 scanf("%d", &n1);
 scanf("%d", &n2);
-
-maior1 = funcaoMaior(n1,n2);
-
-scanf("%d", &n1);
-scanf("%d", &n2);
-
-maior2 = funcaoMaior(n1,n2);
-
-printf("Maior: %d", funcaoMaior(maior1, maior2));
+scanf("%d", &n3);
+scanf("%d", &n4);
+printf("Maior: %d", funcaoMaior(funcaoMaior(n1, n2), funcaoMaior(n3, n4)));
 
 
 
