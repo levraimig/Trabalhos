@@ -2,26 +2,23 @@
 
 int soma(int a, int b){
 
-int num = 1;
+int num = 0;
 
 if(a > b){
-    for(; a >= b; a++){
-    num = num + a;
+    for(int i = a; a >= b; i--){
+    num = num + i;
     }
 }
 
 else
-     for(; b >= a; b++){
-    num = num + b;
+     for(int i = a; i <= b; i++){
+    num = num + i;
 
 }
 
 return num;
 
 }
-
-
-
 
 main(){
 
