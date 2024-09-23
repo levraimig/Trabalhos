@@ -8,6 +8,7 @@ if(a > b){
     for(int i = a; a >= b; i--){
     num = num + i;
     }
+    return num;
 }
 
 else

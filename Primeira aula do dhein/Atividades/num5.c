@@ -2,12 +2,13 @@
 #include <string.h>
 
 
-int calc(char a[100]){
+char calc(char a[100]){
+    int soma;
+for (int x = 0; a[x]; x++){
+    soma++;
+}
+return soma - 1;
 
-int carac = 0;
-
-carac = strlen(a);
-return carac;
 
 }
 
@@ -17,8 +18,8 @@ main(){
 char a[100];
 
 printf("Escreva uma frase: ");
-fgets(a, 100, stdin);
+fgets( a, 100,  stdin);
 
-printf("O numero de caracteres eh %d", calc(a));
+printf("O numero de caracteres eh %d ", calc(a));
 
 }
